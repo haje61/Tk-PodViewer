@@ -24,7 +24,6 @@ my %ignore = (
 	'begin' => 1,
 	'end' => 1,
 	'for' => 1,
-	'E' => 1,
 	'X' => 1,
 	'Z' => 1,
 );
@@ -47,17 +46,11 @@ It supports most of the pod tags. It ignores the following tags:
 
 =over 4
 
-=item begin
-
-=item end
-
-=item for
-
-=item E
-
-=item X
-
-=item Z
+ =begin
+ =end
+ =for
+ X<>
+ Z<>
 
 =back
 
@@ -640,6 +633,12 @@ Hans Jeuken (hanje at cpan dot org)
 Calling the B<configureTags> method takes ages.
 
 If you find any bugs, please contact the author.
+
+=head1 TODO
+
+Change the S command into real non breakable spaces instead of just a wrap to none.
+
+Configure tags as the need arises instead of all at once.
 
 =head1 SEE ALSO
 

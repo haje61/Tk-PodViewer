@@ -76,7 +76,7 @@ Ignoring =begin and =end tags
 =for comment
 Ignoring =for tag
 
-Ignoring the escape E<23> command. Ignoring the X<X command>. Ignoring the Z<> command.
+The escape E<23> command. Ignoring the X<X command>. Ignoring the Z<> command.
 
 =head5 HEAD5 NORMAL B<BOLD> I<ITALIC> B<I<BOLD and ITALIC>>
 
