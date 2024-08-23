@@ -698,15 +698,11 @@ Hans Jeuken (hanje at cpan dot org)
 
 =head1 BUGS AND CAVEATS
 
-Calling the B<configureTags> method takes ages.
-
 If you find any bugs, please contact the author.
 
 =head1 TODO
 
 Change the S command into real non breakable spaces instead of just a wrap to none.
-
-Configure tags as the need arises instead of all at once.
 
 =head1 SEE ALSO
 
